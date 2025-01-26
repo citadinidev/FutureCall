@@ -31,7 +31,7 @@ const taskId = futureCall.newcall(post, {
   interval: '02:00:00', // Run every 2 hours
   startTime: '07:00:00', // Start at 7 AM
   endTime: '22:00:00',   // End at 10 PM
-  days: [1, 0, 1, 0, 1, 0, 0], // Monday, Wednesday, and Friday (1 = run, 0 = skip)
+  days: [1, 1, 0, 0, 0, 1, 0], // Sunday, Monday, and Friday (1 = run, 0 = skip)
   timezone: 'America/New_York' // Timezone
 });
 ```
@@ -41,7 +41,7 @@ const taskId = futureCall.newcall(post, {
 - `interval` (string): Interval between executions, in `HH:mm:ss` format (e.g., `'02:00:00'` for every 2 hours).
 - `startTime` (string): Start time in `HH:mm:ss` format (e.g., `'07:00:00'`).
 - `endTime` (string): End time in `HH:mm:ss` format (e.g., `'22:00:00'`).
-- `days` (array): Array of 7 numbers representing days of the week (1 = active, 0 = inactive). For example, `[1, 0, 1, 0, 1, 0, 0]` means the task will run on Monday, Wednesday, and Friday.
+- `days` (array): Array of 7 numbers representing days of the week (1 = active, 0 = inactive). For example, `[1, 1, 0, 0, 0, 1, 0]` means the task will run on Sunday, Monday, and Friday.
 - `timezone` (string, optional): The timezone to use (e.g., `'America/New_York'`). Defaults to `'America/New_York'`.
 
 ## Methods
