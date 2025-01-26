@@ -1,6 +1,6 @@
 {
   "name": "futurecall",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library to schedule functions for execution.",
   "main": "index.js",
   "scripts": {
