@@ -26,7 +26,7 @@ function post() {
   console.log('Post function executed');
 }
 
-// Schedule the 'post' function every 2 hours, between 7 AM and 10 PM, on Monday, Wednesday, and Friday, with timezone 'America/New_York'
+// Schedule the 'post' function every 2 hours, between 7 AM and 10 PM, on Sunday, Monday, and Friday, with timezone 'America/New_York'
 const taskId = futureCall.newcall(post, {
   interval: '02:00:00', // Run every 2 hours
   startTime: '07:00:00', // Start at 7 AM
