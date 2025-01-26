@@ -1,0 +1,20 @@
+{
+  "name": "futurecall",
+  "version": "1.0.0",
+  "description": "A library to schedule functions for execution.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/citadinidev/FutureCall.git"
+  },
+  "keywords": ["scheduler", "tasks", "functions", "timing"],
+  "author": "Rafel Citadini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/citadinidev/FutureCall/issues"
+  },
+  "homepage": "https://github.com/citadinidev/FutureCall#readme"
+}
